@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial;
+  font-size: 16px;
+}
+
+header, section, footer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header, section {
+  margin-bottom: 50px;
+}
+
+header {
+  padding-top: 20px;
+  text-align: center;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+header ul li a {
+  color: #0059FF;
+  text-decoration: none;
+}
+
+header ul li a:hover, header ul li.active a {
+  text-decoration: underline;
+}
+
+section h1, section p {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+}
